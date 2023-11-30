@@ -1,5 +1,5 @@
 create table vehicle (
-    vehicle_id int primary key,
+    vehicle_id integer primary key,
     model_id int,
     year int,
     color varchar(255),

@@ -10,5 +10,5 @@ sqlite3 vdb.db <<EOF
 -- insert seed data
 .read make.seed.sql
 
-exit
+.quit
 EOF
