@@ -3,12 +3,15 @@
 # Start the SQLite command line tool and create a new database
 sqlite3 vdb.db <<EOF
 -- create db objects
-.read make.create.sql
-.read model.create.sql
+.read specifications.create.sql
+.read service_schedule.create.sql
 .read vehicle.create.sql
+.read service_history.create.sql
 
 -- insert seed data
-.read make.seed.sql
+
+.mode csv
+.import 'specifications.csv' specifications
 
 .quit
 EOF
