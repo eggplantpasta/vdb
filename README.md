@@ -4,13 +4,13 @@ This database tracks the service history of a vehicle.
 
 ## Schema
 
-### specifications
+### specifications (reference table)
 
 The specifications of the vehicle. Make, model, etc. Based on the schema.org type of [car](https://schema.org/Car).
 
-### service_schedule
+### service_schedule (reference table)
 
-The service schedule of a vehicle. Service action and optional interval required.
+The service schedule of a vehicle. Service item, description, and interval (km or time interval) required.
 
 ### vehicle
 
@@ -18,7 +18,7 @@ Details of an actual vehicle. Make, model, registration, colour, year, etc.
 
 ### service_history
 
-Date and miles of a service action for a particular vehicle.
+Date, km, and other details of a service action for a particular vehicle.
 
 ## Data Sources
 

@@ -1,5 +1,5 @@
-create table specifications (
-  specification_id integer primary key,
+create table  if not exists specifications (
+  specification_id integer primary key not null,
   make text,
   model text,
   generation text,
@@ -58,10 +58,10 @@ create table specifications (
   range_km text,
   emission_standards text,
   fuel_tank_capacity_l text,
-  acceleration_0_100_km/h_s text,
+  acceleration_0_100_kmh_s text,
   max_speed_km_per_h text,
   city_fuel_per_100km_l text,
-  co2_emissions_g/km text,
+  co2_emissions_gkm text,
   fuel_grade text,
   highway_fuel_per_100km_l text,
   back_suspension text,
