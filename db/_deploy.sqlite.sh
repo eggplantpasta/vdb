@@ -10,8 +10,9 @@ sqlite3 vdb.db <<EOF
 
 -- insert seed data
 
-.mode csv
-.import 'specifications.csv' specifications
+.import --csv --skip 1 'specifications.csv' specifications
+
+-- import example data
 
 .quit
 EOF

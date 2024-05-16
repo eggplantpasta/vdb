@@ -1,4 +1,4 @@
-create table  if not exists service_schedule (
+create table if not exists service_schedule (
     service_schedule_id integer primary key,
     specification_id integer,
     interval_km integer,

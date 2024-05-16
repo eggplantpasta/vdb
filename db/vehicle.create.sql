@@ -1,6 +1,8 @@
-create table  if not exists vehicle (
+create table if not exists vehicle (
     vehicle_id integer primary key,
     specification_id integer,
+    vin text,
+    registration text,
     model_year integer,
     color varchar(255),
     purchase_date date,

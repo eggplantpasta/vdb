@@ -1,4 +1,4 @@
-create table  if not exists specifications (
+create table if not exists specifications (
   specification_id integer primary key not null,
   make text,
   model text,
