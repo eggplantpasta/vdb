@@ -1,0 +1,2 @@
+service_schedule_id,specification_id,interval_km,interval_months,item,description
+1,25921,15000,,"oil change","oil 10/40 4.2L, filter Z411, crush washer 17mm"
